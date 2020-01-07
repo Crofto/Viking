@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+  <head>
+		<meta charset="UTF-8"/>
+		<title>Détail pull</title>
+		<link href="StyleSheet.css" rel="stylesheet">
+  </head>
+    
+   
+  <body class="body">
+		
+		<img
+			src="Banniere.jpg" 
+			alt="Ma bannière" 
+			style = "width:100%"
+		/>
+		
+		<div id="navbar"  >
+			<h1>Viking</h1>	
+			  <a href="Acceuil.html">Acceuil</a>
+			  <a href="Achat.html">Achat</a>
+			  <a href="Panier.html">Panier</a>
+			  <a href="Qui_sommes_nous.html">Qui sommes-nous</a>
+		</div>
+
+
+		<div id="Contenu" >
+			<a href="Detail_pull.html">
+				<div class="produit" id="Pull1"  >
+					<img id="imgproduit1" style = "width:20%; float:left" src="pull.jpg" alt="L image du pull" >
+					<Strong>Pull 1</Strong> 
+					<p>Création original</p>
+					<em>19,00€</em>					
+				</div>
+			</a>
+			
+			<form  method="get" >			
+			<label for="couleurselect"> Couleur :</label> 
+			<select id="couleurselect" name="Couleur" >
+				<option value="0">Noir</option>
+				<option value="1">Gris</option>
+				<option value="2">Blanc</option>
+			</select>
+			
+			<label for="Tailleselect"> Taille :</label> 
+			<select id="Tailleselect" name="Taille" >
+				<option value="0">S</option>
+				<option value="1">M</option>
+				<option value="2">L</option>
+			</select>
+			<br>
+			</form>
+			<form  method="get" >
+			<input type="submit" value="Ajouter au panier">
+			</form>
+			
+
+		</div>
+   
+		<footer id="footer">
+			<br>
+			<p>   
+			Viking est une société de vente de vêtements.
+			<br><br>©2019 Viking
+			</p>
+		</footer>
+  </body>
+
+</html>
+
